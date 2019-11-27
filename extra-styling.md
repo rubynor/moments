@@ -3,6 +3,7 @@
 Legg til disse linjene i Gemfile:
 
 ```ruby
+gem 'material_icons'
 gem 'bootstrap',     '4.1.1'
 gem 'material-sass', '4.1.1'
 ```
@@ -16,8 +17,10 @@ bundle install
 Importer Materialize stilsettet i `app/assets/stylesheets/application.scss` (må opprettes):
 
 ```scss
+/*
+*= require material_icons
+*/
 @import "material";
-//ps: no need to import 'bootstrap'
 ```
 
 Slett application.css

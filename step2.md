@@ -1,6 +1,8 @@
 
 # React to awesome moments
 
+Bygger på README.md i https://github.com/rubynor/moments
+
 Share reactions on moments
 
     rails generate scaffold reaction moment:references awe:string

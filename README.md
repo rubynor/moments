@@ -3,10 +3,10 @@ Repo for utdanningsformål :)
 
 # Krav
 
-[x] [Node.js](https://nodejs.org/en/)
-[x] [Rails](https://rubyonrails.org/)
-[x] [Ruby](https://www.ruby-lang.org/en/)
-[x] En teksteditor/IDE
+* [Node.js](https://nodejs.org/en/)
+* [Rails](https://rubyonrails.org/)
+* [Ruby](https://www.ruby-lang.org/en/)
+* En teksteditor/IDE
 
 # Lag en "Ruby on Rails 6" app
 

@@ -36,3 +36,8 @@ legg til `has_many :reactions` i moment.rb
 Hva gjør egentlig denne?
 
 Svaret ligger i output.
+
+
+STEP 3 - Bilder
+
+step3.md https://github.com/rubynor/moments/blob/master/step3.md

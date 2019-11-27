@@ -1,0 +1,2 @@
+# moments
+Repo for utdanningsformål :) 

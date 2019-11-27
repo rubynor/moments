@@ -80,29 +80,4 @@ Person B peke nettleser til denne og fyre av requests (mens andre person ser i s
 
 ETT STEG VIDERE
 
-Share reactions on those cool moments
-
-    rails generate scaffold reaction moment:references awe:string
-
-Sjekk models etc. 
-
-`rails db:migrate`
-
-`rails console`
-`Reaction.count`
-`amoment = Moment.first`
-`reaction = Reaction.create!(moment: amoment, awe: "Aaaawwww")`
-
-Viser at man kan hente tilknyttet objekt
-`reaction.moment`
-    
-    # hva med andre veien?
-    moment.reactions 
-    # hvorfor gikk det ikke? la oss fikse.
-    
-
-legg til `has_many :reactions` i moment.rb
-
-    rails console
-    Moment.first.reactions
-    
+Åpne steg2.md

@@ -13,7 +13,10 @@
  
     rails active_storage:install
  
- Vi må fortelle hvilken klasse/model som skal ha bildet. Det definerer vi i filen `app/models/moment.rb`
+ Vi må fortelle hvilken klasse/model som skal ha bildet.
+ 
+ Det definerer vi i filen `app/models/moment.rb`
+ 
      has_one_attached :photo
 
  Deretter må legge til opplastningen i create/edit skjemaet i filen `app/views/moments/_form.html.erb`:

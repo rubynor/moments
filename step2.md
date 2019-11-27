@@ -37,6 +37,8 @@ Hva gjør egentlig denne?
 
 Svaret ligger i output.
 
+Et ORM mapper fra objekter til sql. så has_many koblingen gjør at du slipper å skrive sql direkte. Du ser i console hvilken SQL som kjøres for å hente dataene fra tabellen.
+
 
 STEP 3 - Bilder
 

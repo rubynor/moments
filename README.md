@@ -12,9 +12,9 @@ Repo for utdanningsformål :)
 # Lag en "Ruby on Rails 6" app
 
 1. Lag et nytt rails prosjekt
-
-⋅⋅⋅`rails new share-moment`
-
+ 
+  `rails new share-moment`
+ 
 2. Gå inn i prosjektmappen
 
 ⋅⋅⋅`cd share-moment`

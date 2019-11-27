@@ -78,6 +78,8 @@ STOPP HER, hjelp kameratene til å komme hit FELLES.
 
 Mathias tydeliggjør forskjellen klient og server.
 
+En av elevene starter en lokal server som er tiljengelig for de andre på det lokale nettet `rails server -b <din ip adresse>`.
+
 CO-OP:
 
 Få person A til å åpne sin app

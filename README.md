@@ -43,16 +43,16 @@ Repo for utdanningsformål :)
 
    `(ctrl+c)`
 
-8. Generer scaffold
+8. Generer scaffold.
 
    `rails generate scaffold moment description:string`
 
-9. Legg til endringer i git
+9. Legg til endringer i git.
 
    `git add .`
    `git commit  -am "scaffold moments"`
 
-10. Oppdaterer databasen med den nye tabellen
+10. Oppdaterer databasen med den nye tabellen.
 
    `rails db:migrate`
 

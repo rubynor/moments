@@ -32,6 +32,7 @@ Repo for utdanningsformål :)
 
 6. Kjør opp rails webserver. Webserveren lytter på port 3000.
 Sjekk at nettsiden er oppe på http://localhost:3000.
+
 Mulig man må installere webpacker med `rails webpacker:install`
 `rails server`
 

@@ -7,6 +7,7 @@ Repo for utdanningsformål :)
 * [Rails](https://rubyonrails.org/)
 * [Git](https://git-scm.com/)
 * [Ruby](https://www.ruby-lang.org/en/)
+* [Ruby-irb](https://github.com/ruby/irb)
 * En teksteditor/IDE
 
 # Lag en "Ruby on Rails 6" app

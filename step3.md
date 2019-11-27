@@ -40,3 +40,5 @@
     <% @moment.reactions.each do |reaction| %>
       <p><%= reaction.awe %></p>
     <% end %>      
+
+Forsett til [ekstraoppave - stilsetting](extra-styling.md)

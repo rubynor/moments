@@ -30,7 +30,7 @@ Repo for utdanningsformål :)
 
 5. Lag ny commit med commitbeskjed "rails new"
 
-   `git commit -am “rails new”`
+   `git commit -am "rails new"`
 
 6. Kjør opp rails webserver. Webserveren lytter på port 3000.
 
@@ -51,6 +51,7 @@ Repo for utdanningsformål :)
 9. Legg til endringer i git.
 
    `git add .`
+   
    `git commit  -am "scaffold moments"`
 
 10. Oppdaterer databasen med den nye tabellen.

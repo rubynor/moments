@@ -9,17 +9,21 @@ Share reactions on moments
 
 Sjekk models etc. 
 
-`rails db:migrate`
+    rails db:migrate
 
-`rails console`
-`Reaction.count`
-`amoment = Moment.first`
-`reaction = Reaction.create!(moment: amoment, awe: "Aaaawwww")`
+    rails console
+    Reaction.count
+    amoment = Moment.first
+    reaction = Reaction.create!(moment: amoment, awe: "Aaaawwww")
 
 Viser at man kan hente tilknyttet objekt
-`reaction.moment`
+
+    # i rails console
+    reaction.moment
     
-    # hva med andre veien?
+hva med andre veien?
+
+    # i rails console
     moment.reactions 
     # hvorfor gikk det ikke? la oss fikse.
     
@@ -28,4 +32,7 @@ legg til `has_many :reactions` i moment.rb
 
     rails console
     Moment.first.reactions
-    
+
+Hva gjør egentlig denne?
+
+Svaret ligger i output.

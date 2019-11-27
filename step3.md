@@ -6,7 +6,8 @@
  
  Først vil jeg konfigurere opp en streng regel som gjør feil parametre i requests tydelige i stedet for usynlige
  
-  i `config/application.rb`, legg til denne linjen
+ Legg til denne linjen i `config/application.rb`
+ 
     config.action_on_unpermitted_parameters = :raise
  
  Tilbake til guiden for bildeopplastning. Vi må kjøre installasjon:

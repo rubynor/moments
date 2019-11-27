@@ -13,7 +13,7 @@ Deretter kjør bundler, og restart rails-serveren.
 bundle install
 ```
 
-Importer Materialize stilsettet i `app/assets/stylesheets/application.scss`:
+Importer Materialize stilsettet i `app/assets/stylesheets/application.scss` (må opprettes):
 
 ```scss
 @import "material";

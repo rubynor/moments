@@ -90,4 +90,4 @@ Person B peke nettleser til denne og fyre av requests (mens andre person ser i s
 
 # Ett steg videre
 
-Gå videre til [steg2](step2.md).
+Gå videre til [steg 2](step2.md).

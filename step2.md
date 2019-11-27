@@ -28,7 +28,7 @@ hva med andre veien?
     # hvorfor gikk det ikke? la oss fikse.
     
 
-legg til `has_many :reactions` i moment.rb
+legg til `has_many :reactions` i `app/models/moment.rb`
 
     rails console
     Moment.first.reactions

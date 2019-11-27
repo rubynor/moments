@@ -14,7 +14,7 @@ Deretter kjør bundler, og restart rails-serveren.
 bundle install
 ```
 
-Importer Materialize stilsettet i `app/assets/stylesheets/application.scss` (må opprettes):
+Importer Materialize-stilsettet i `app/assets/stylesheets/application.scss` (må opprettes):
 
 ```scss
 /*
@@ -48,7 +48,7 @@ Refresh siden (http://localhost:3000/moments) og se at "New Moment" knappen har 
 
 Eksempel på hvordan du kan benytte material design til å stilsette nettsiden.
 
-Åpne `app/views/moments/index.html.erb` i teksteditoren, og lim inn følgende
+Åpne `app/views/moments/index.html.erb` i teksteditoren, erstatt innholdet i filen med følgende kode:
 
 ```ruby
 <p id="notice"><%= notice %></p>

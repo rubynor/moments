@@ -5,6 +5,7 @@ Repo for utdanningsformål :)
 
 * [Node.js](https://nodejs.org/en/)
 * [Rails](https://rubyonrails.org/)
+* [Git](https://git-scm.com/)
 * [Ruby](https://www.ruby-lang.org/en/)
 * En teksteditor/IDE
 
@@ -31,9 +32,11 @@ Repo for utdanningsformål :)
 `git commit -am “rails new”`
 
 6. Kjør opp rails webserver. Webserveren lytter på port 3000.
+
 Sjekk at nettsiden er oppe på http://localhost:3000.
 
 Mulig man må installere webpacker med `rails webpacker:install`
+
 `rails server`
 
 7. Stopp webserver `(ctrl+c)`
@@ -53,7 +56,9 @@ git commit  -am "scaffold moments"
 
 `rails db:migrate`
 
-11. Start rails webserver. Gå deretter til [http://localhost:3000/moments](http://localhost:3000/moments)
+11. Start rails webserver.
+
+Gå deretter til [http://localhost:3000/moments](http://localhost:3000/moments)
 
 `rails server`
 
@@ -66,6 +71,7 @@ Vise i kode og i console
     pp Moment.all
 
 http://localhost:3000/moments.json
+
 http://localhost:3000/moments/1.json
 
 STOPP HER, hjelp kameratene til å komme hit FELLES.
@@ -78,6 +84,6 @@ Få person A til å åpne sin app
 
 Person B peke nettleser til denne og fyre av requests (mens andre person ser i sine logger at ting skjer)
 
-ETT STEG VIDERE
+# Ett steg videre
 
-Åpne steg2.md (https://github.com/rubynor/moments/blob/master/step2.md)
+Gå videre til [steg2](step2.md).

@@ -3,10 +3,10 @@ Repo for utdanningsformål :)
 
 # Krav
 
-* [Node.js](https://nodejs.org/en/)
-* [Rails](https://rubyonrails.org/)
-* [Ruby](https://www.ruby-lang.org/en/)
-* En teksteditor/IDE
+[x] [Node.js](https://nodejs.org/en/)
+[x] [Rails](https://rubyonrails.org/)
+[x] [Ruby](https://www.ruby-lang.org/en/)
+[x] En teksteditor/IDE
 
 # Lag en "Ruby on Rails 6" app
 
@@ -43,16 +43,17 @@ Mulig man må installere webpacker med `rails webpacker:install`
 
 9. Legg til endringer i git
 
-`
+```
 git add .
 git commit  -am "scaffold moments"
-`
+```
 
 10. Oppdaterer databasen med den nye tabellen
 
 `rails db:migrate`
 
 11. Start rails webserver. Gå deretter til [http://localhost:3000/moments](http://localhost:3000/moments)
+
 `rails server`
 
 Vise i kode og i console
@@ -66,26 +67,33 @@ Vise i kode og i console
 http://localhost:3000/moments.json
 http://localhost:3000/moments/1.json
 
-STOPP HER, hjelp kameratene til å komme hit
-FELLES: Mathias tydeliggjøre forskjellen klient og server.
+STOPP HER, hjelp kameratene til å komme hit FELLES.
+
+Mathias tydeliggjør forskjellen klient og server.
+
 CO-OP:
+
 Få person A til å åpne sin app
+
 Person B peke nettleser til denne og fyre av requests (mens andre person ser i sine logger at ting skjer)
 
 ETT STEG VIDERE
+
 Share reactions on those cool moments
 
     rails generate scaffold reaction moment:references awe:string
 
-sjekk models etc. 
+Sjekk models etc. 
 
-    rails db:migrate
+`rails db:migrate`
 
-    rails console
-    Reaction.count
-    amoment = Moment.first
-    reaction = Reaction.create!(moment: amoment, awe: "Aaaawwww")
-    reaction.moment # viser at man kan hente tilknyttet objekt
+`rails console`
+`Reaction.count`
+`amoment = Moment.first`
+`reaction = Reaction.create!(moment: amoment, awe: "Aaaawwww")`
+
+Viser at man kan hente tilknyttet objekt
+`reaction.moment`
     
     # hva med andre veien?
     moment.reactions 

@@ -80,4 +80,4 @@ Person B peke nettleser til denne og fyre av requests (mens andre person ser i s
 
 ETT STEG VIDERE
 
-Åpne steg2.md
+Åpne steg2.md (https://github.com/rubynor/moments/blob/master/step2.md)

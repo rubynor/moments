@@ -28,8 +28,11 @@ hva med andre veien?
     # hvorfor gikk det ikke? la oss fikse.
     
 
-legg til `has_many :reactions` i `app/models/moment.rb`
+Legg til dette i `app/models/moment.rb`
 
+    has_many :reactions
+
+Kjør deretter
     rails console
     Moment.first.reactions
 
@@ -37,7 +40,9 @@ Hva gjør egentlig denne?
 
 Svaret ligger i output.
 
-Et ORM mapper fra objekter til sql. så has_many koblingen gjør at du slipper å skrive sql direkte. Du ser i console hvilken SQL som kjøres for å hente dataene fra tabellen.
+Et ORM mapper fra objekter til SQL. så `has_many` koblingen gjør at du slipper å skrive SQL direkte.
+
+Du ser i console hvilken SQL-spørring som kjøres for å hente dataene fra tabellen.
 
 
 STEP 3 - Bilder

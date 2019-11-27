@@ -45,6 +45,4 @@ Et ORM mapper fra objekter til SQL. så `has_many` koblingen gjør at du slipper
 Du ser i console hvilken SQL-spørring som kjøres for å hente dataene fra tabellen.
 
 
-STEP 3 - Bilder
-
-Gå videre til [steg3](step3.md).
+Gå videre til [steg 3](step3.md) (bilde opplasting).

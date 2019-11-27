@@ -8,7 +8,9 @@
  
  Legg til denne linjen i `config/application.rb`
  
-    config.action_on_unpermitted_parameters = :raise
+ ```ruby
+ config.action_on_unpermitted_parameters = :raise
+ ```
  
  Tilbake til guiden for bildeopplastning. Vi må kjøre installasjon:
  
@@ -18,27 +20,33 @@
  
  Det definerer vi i filen `app/models/moment.rb`
  
-     has_one_attached :photo
+ ```ruby
+ has_one_attached :photo
+ ```
 
  Deretter må legge til opplastningen i create/edit skjemaet i filen `app/views/moments/_form.html.erb`:
 
-    <%= form.file_field :photo %>
+ ```ruby
+ <%= form.file_field :photo %>
+ ```
 
  Til slutt må vi vise bildet, sammen med kommentarer i filen `app/views/moments/index.html.erb`
 
-    <p>
-      <strong>
-      <%= @moment.description %>
-      </strong>
-    </p>
+ ```ruby
+   <p>
+     <strong>
+     <%= @moment.description %>
+     </strong>
+   </p>
 
-    <p>
-      <%= image_tag(@moment.photo, width: '500px') %>
-    </p>
-    <p> <%= @moment.reactions.count %> reaksjoner </p>
+   <p>
+     <%= image_tag(@moment.photo, width: '500px') %>
+   </p>
+   <p> <%= @moment.reactions.count %> reaksjoner </p>
 
-    <% @moment.reactions.each do |reaction| %>
-      <p><%= reaction.awe %></p>
-    <% end %>      
+   <% @moment.reactions.each do |reaction| %>
+     <p><%= reaction.awe %></p>
+   <% end %>
+ ```
 
 Forsett til [ekstraoppave - stilsetting](extra-styling.md)

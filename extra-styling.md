@@ -38,4 +38,4 @@ til:
 <%= button_to 'New Moment', new_moment_path, :class => 'btn btn-primary', :method => :get %>
 ```
 
-Refresh side og se at "New Moment" knappen har forandret utseende.
+Refresh siden (http://localhost:3000/moments) og se at "New Moment" knappen har forandret utseende.

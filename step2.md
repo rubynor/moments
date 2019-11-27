@@ -42,4 +42,4 @@ Et ORM mapper fra objekter til sql. så has_many koblingen gjør at du slipper �
 
 STEP 3 - Bilder
 
-step3.md https://github.com/rubynor/moments/blob/master/step3.md
+Gå videre til [steg3](step3.md).

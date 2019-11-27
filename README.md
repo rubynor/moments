@@ -1,22 +1,59 @@
 # moments
-Repo for utdanningsformål :) 
+Repo for utdanningsformål :)
 
-# Create Ruby on Rails 6 app
+# Krav
 
-    rails new share-moment
-    cd share-moment
+* [Node.js](https://nodejs.org/en/)
+* [Rails](https://rubyonrails.org/)
+* [Ruby](https://www.ruby-lang.org/en/)
+* En teksteditor/IDE
 
-    git init . 
-    git add .
-    git commit -am “rails new”
-    rails server # kjører opp server og lytter på localhost:3000 
-      ( krever nodejs og webpacker om ikke installert) (rails webpacker:install, husk git commit)
-    stopp server (ctrl + c)
-    rails generate scaffold moment description:string
-    git add .
-    git commit  -am "scaffold moments"
-    rails db:migrate # oppdaterer databasen med den nye tabellen
-    rails server (gå til localhost:3000/moments )
+# Lag en "Ruby on Rails 6" app
+
+1. Lag et nytt rails prosjekt
+
+`rails new share-moment`
+
+2. Gå inn i prosjektmappen
+
+`cd share-moment`
+
+3. Initialiser versjonskontrollsystem (git)
+
+`git init .`
+
+4. Legg til alle filer i git
+
+`git add .`
+
+5. Lag ny commit med commitbeskjed "rails new"
+
+`git commit -am “rails new”`
+
+6. Kjør opp rails webserver. Webserveren lytter på port 3000.
+Sjekk at nettsiden er oppe på http://localhost:3000.
+Mulig man må installere webpacker med `rails webpacker:install`
+`rails server`
+
+7. Stopp webserver `(ctrl+c)`
+
+8. Generer scaffold
+
+`rails generate scaffold moment description:string`
+
+9. Legg til endringer i git
+
+`
+git add .
+git commit  -am "scaffold moments"
+`
+
+10. Oppdaterer databasen med den nye tabellen
+
+`rails db:migrate`
+
+11. Start rails webserver. Gå deretter til [http://localhost:3000/moments](http://localhost:3000/moments)
+`rails server`
 
 Vise i kode og i console
 

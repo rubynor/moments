@@ -73,11 +73,11 @@ sudo apt update && sudo apt install --no-install-recommends yarn
 
 6. Kjør opp rails webserver. Webserveren lytter på port 3000.
 
+   `rails server`
+
    Sjekk at nettsiden er oppe på http://localhost:3000.
 
    Mulig man må installere webpacker med `rails webpacker:install`
-
-   `rails server`
 
 7. Stopp webserver med
 

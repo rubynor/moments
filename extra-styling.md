@@ -14,6 +14,10 @@ Deretter kjør bundler, og restart rails-serveren.
 bundle install
 ```
 
+Stopp rails serveren `CTRL+C`.
+
+Start den igjen med `rails server`
+
 Importer Materialize-stilsettet i `app/assets/stylesheets/application.scss` (må opprettes):
 
 ```scss
@@ -40,10 +44,6 @@ til:
 ```ruby
 <%= button_to 'New Moment', new_moment_path, :class => 'btn btn-primary', :method => :get %>
 ```
-
-Stopp rails serveren `CTRL+C`.
-
-Start den igjen med `rails server`
 
 Refresh siden (http://localhost:3000/moments) og se at "New Moment" knappen har forandret utseende.
 

@@ -99,6 +99,3 @@ Bare skrev du, eller leste du og? Forstår du endringene?
 
 Bare gjør du, blir det monkey see monkey do. Jeg tror du er bedre enn som så, se litt mer på endringene og hvilken effekt de hadde.
 
-
-
-sdff

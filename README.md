@@ -113,6 +113,12 @@ Vise i kode og i console
     Moment.first
     Moment.all
     pp Moment.all
+    
+    #Mer avansert
+    m = Moment.create!(description: "That party wsa soooo awezome!")
+    # sjekk om den kom opp på http://localhost:3000/moments
+    m.update!(description: "My account was hacked, I hated that stupid party")
+    # sjekk igjen i nettleseren :)
 
 http://localhost:3000/moments.json
 

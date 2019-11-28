@@ -60,3 +60,5 @@
 Fortsett til [ekstraoppave - stilsetting](extra-styling.md)
 
 Fortsett til [ekstraoppave - Add Reaction to Moment](add-reaction.md)
+
+Ekstraoppgave: [brukerinnlogging](https://github.com/rubynor/rails-setup#9-devise-for-handling-authentication)

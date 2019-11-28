@@ -1,6 +1,6 @@
 # Styling - ekstraoppgave
 
-Legg til disse linjene i Gemfile:
+Legg til disse linjene **nederst** i Gemfile:
 
 ```ruby
 gem 'material_icons'
@@ -41,12 +41,16 @@ til:
 <%= button_to 'New Moment', new_moment_path, :class => 'btn btn-primary', :method => :get %>
 ```
 
+Stopp rails serveren `CTRL+C`.
+
+Start den igjen med `rails server`
+
 Refresh siden (http://localhost:3000/moments) og se at "New Moment" knappen har forandret utseende.
 
 
 ## Eksempel
 
-Eksempel på hvordan du kan benytte material design til å stilsette nettsiden.
+Eksempel på hvordan du kan benytte material design til å stilsette moments-siden.
 
 Åpne `app/views/moments/index.html.erb` i teksteditoren, erstatt innholdet i filen med følgende kode:
 

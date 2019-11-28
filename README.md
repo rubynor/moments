@@ -15,6 +15,24 @@ Repo for utdanningsformål :)
 
 0. Åpne console, vi kjøre kommandolinje
 
+    Gå til hjemmeområdet: 
+    $ cd
+    # cd uten argument tar deg "hjem"
+    $ pwd
+    # du skal nå se /home/ole, om du ditt brukernavn er ole
+    $ mkdir dev
+    #oppretter mappen dev
+    $ cd dev
+    # navigerer deg inn i dev-mappen
+    $ pwd
+    # viser nå /home/ole/dev
+    Her inne kjører du
+    rails -v
+    og rails new kommandoen under
+    
+    
+
+
 1. Lag et nytt rails prosjekt
  
    `rails new share-moment`

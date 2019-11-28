@@ -84,3 +84,5 @@ Eksempel på hvordan du kan benytte material design til å stilsette moments-sid
   <%= button_to 'New Moment', new_moment_path, :class => 'btn btn-primary', :method => :get %>
 </div>
 ```
+
+Her er dokumentasjon hvis du vil stilsette de andre sidene på egenhånd: http://daemonite.github.io/material/ 

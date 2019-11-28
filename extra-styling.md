@@ -88,7 +88,7 @@ Eksempel på hvordan du kan benytte material design til å stilsette moments-sid
 
 Her er dokumentasjon hvis du vil stilsette de andre sidene på egenhånd: http://daemonite.github.io/material/ 
 
-For å overstyle "primary color" erstatt innholdet i `app/assets/stylesheets/application.scss` med følgende:
+For å overstyre "primary color" erstatt innholdet i `app/assets/stylesheets/application.scss` med følgende:
 
 ```css
 /*

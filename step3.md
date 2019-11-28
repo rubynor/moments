@@ -30,7 +30,7 @@
  <%= form.file_field :photo %>
  ```
  
- Nå sendes bilde fra klienten til serveren, men for at serveren skal kunne mota bilde må vi fortelle den at den aksepterer bilder. dette gjør vi ved å legge til photo som paramater i metoden moments_param fra kontrolleren `app/controllers/moments_controller.rb`
+ Nå sendes bilde fra klienten til serveren, men for at serveren skal kunne mota bilde må vi fortelle den at den aksepterer bilder. dette gjør vi ved å legge til "photo" som paramater i metoden moments_param fra kontrolleren `app/controllers/moments_controller.rb`
  
  ```ruby
  def moment_params

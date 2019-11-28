@@ -75,6 +75,7 @@ Eksempel på hvordan du kan benytte material design til å stilsette moments-sid
             <%= moment.description %>
           </blockquote>
         </div>
+        <%= link_to 'Gå til moment', moment, :class => 'btn btn-primary', :method => :get %>
       </div>
 
     <% end %>

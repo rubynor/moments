@@ -10,6 +10,23 @@ Repo for utdanningsformål :)
 * [Ruby-irb](https://github.com/ruby/irb)
 * En teksteditor/IDE
 
+# Installere Yarn
+
+Legg til yarn i pakkeregisteret
+```bash
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+```
+
+Oppdater fra pakkeregister
+```bash
+sudo apt update && sudo apt install yarn
+```
+
+```bash
+sudo apt update && sudo apt install --no-install-recommends yarn
+```
+
 # Lag en "Ruby on Rails 6" app
 
 

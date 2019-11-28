@@ -97,5 +97,5 @@ og edit og new html forms
 
 Bare skrev du, eller leste du og? Forstår du endringene? 
 
-Bare gjør du, blir det monkey see monkey do. Jeg tror du er bedre enn som så, se litt mer på endringene og hvilken effekt de hadde.
+Hermer du bare, blir det monkey see monkey do, og du blir heller ikke særlige smartere enn en ape. Jeg tror du er bedre enn som så, se litt mer på endringene og hvilken effekt de hadde. Lær!
 

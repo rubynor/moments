@@ -128,7 +128,13 @@ STOPP HER, hjelp kameratene til å komme hit FELLES.
 
 Mathias tydeliggjør forskjellen klient og server.
 
-En av elevene starter en lokal server som er tiljengelig for de andre på det lokale nettet `rails server -b <din ip adresse>`.
+En av elevene starter en lokal server som er tiljengelig for de andre på det lokale nettet 
+
+    `rails server -b <din ip adresse>`.
+    # IP-en finner du med
+    ip addr
+    #Gi denne til din partner in crimes, husk å bruke port 3000
+
 
 CO-OP:
 

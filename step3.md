@@ -29,8 +29,16 @@
  ```ruby
  <%= form.file_field :photo %>
  ```
+ 
+ Nå sendes bilde fra klienten til serveren, men for at serveren skal kunne mota bilde må vi fortelle den at den aksepterer bilder. dette gjør vi ved å legge til photo som paramater i metoden moments_param fra kontrolleren `app/controllers/moments_controller.rb`
+ 
+ ```ruby
+ def moment_params
+  params.require(:moment).permit(:description, :photo)
+ end
+ ```
 
- Til slutt må vi vise bildet, sammen med kommentarer i filen `app/views/moments/index.html.erb`
+ Til slutt må vi vise bildet, sammen med kommentarer i filen `app/views/moments/show.html.erb`
 
  ```ruby
    <p>
@@ -40,7 +48,7 @@
    </p>
 
    <p>
-     <%= image_tag(@moment.photo, width: '500px') %>
+     <%= image_tag(@moment.photo, width: '500px') if @moment.photo.attached? %>
    </p>
    <p> <%= @moment.reactions.count %> reaksjoner </p>
 

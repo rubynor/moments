@@ -44,5 +44,28 @@ Et ORM mapper fra objekter til SQL. så `has_many` koblingen gjør at du slipper
 
 Du ser i console hvilken SQL-spørring som kjøres for å hente dataene fra tabellen.
 
+Vise reaksjonene på et øyeblikk (moment)
+
+    <p id="notice"><%= notice %></p>
+
+    <p>
+      <strong>
+        <%= @moment.description %>
+      </strong>
+    </p>
+
+    <p>
+      <%= image_tag(@moment.photo, width: '500px') if @moment.photo.attached? %>
+    </p>
+    <p> <%= @moment.reactions.count %> reaksjoner </p>
+
+    <% @moment.reactions.each do |reaction| %>
+      <p><%= reaction.awe %></p>
+    <% end %>
+
+    <%= link_to 'Edit', edit_moment_path(@moment) %> |
+    <%= link_to 'Back', moments_path %>
+
+
 
 Gå videre til [steg 3](step3.md) (bilde opplasting).

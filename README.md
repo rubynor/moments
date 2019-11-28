@@ -23,6 +23,7 @@ Oppdater fra pakkeregister
 sudo apt update && sudo apt install yarn
 ```
 
+Installer yarn
 ```bash
 sudo apt update && sudo apt install --no-install-recommends yarn
 ```

@@ -57,4 +57,5 @@
    <% end %>
  ```
 
-Forsett til [ekstraoppave - stilsetting](extra-styling.md)
+Fortsett til [ekstraoppave - stilsetting](extra-styling.md)
+Fortsett til [ekstraoppave - Add Reaction to Moment](add-reaction.md)

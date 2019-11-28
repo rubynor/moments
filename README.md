@@ -15,6 +15,7 @@ Repo for utdanningsformål :)
 
 0. Åpne console, vi kjøre kommandolinje
 
+```    
     Gå til hjemmeområdet: 
     $ cd
     # cd uten argument tar deg "hjem"
@@ -29,8 +30,7 @@ Repo for utdanningsformål :)
     Her inne kjører du
     rails -v
     og rails new kommandoen under
-    
-    
+```    
 
 
 1. Lag et nytt rails prosjekt

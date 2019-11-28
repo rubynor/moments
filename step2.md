@@ -54,9 +54,6 @@ Vise reaksjonene på et øyeblikk (moment)
       </strong>
     </p>
 
-    <p>
-      <%= image_tag(@moment.photo, width: '500px') if @moment.photo.attached? %>
-    </p>
     <p> <%= @moment.reactions.count %> reaksjoner </p>
 
     <% @moment.reactions.each do |reaction| %>

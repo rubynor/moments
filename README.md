@@ -15,6 +15,9 @@ Repo for utdanningsformål :)
 Legg til yarn i pakkeregisteret
 ```bash
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+```
+
+```bash
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 ```
 

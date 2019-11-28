@@ -66,21 +66,10 @@ Eksempel på hvordan du kan benytte material design til å stilsette nettsiden.
             <%= link_to material_icon.delete, moment, method: :delete, :class => 'card-link', data: { confirm: 'Are you sure?' } %>
           </div>
         </div>
-        <%= image_tag(@moment.photo, width: '200px', :class => 'card-img-top') if @moment.photo.attached? %>
         <div class="card-body">
           <blockquote class="blockquote mb-0">
             <%= moment.description %>
           </blockquote>
-          <div class="mt-4">
-            <%= material_icon.mode_comment %> <%= @moment.reactions.count %>
-          </div>
-          <div>
-          <ul class="list-group list-group-flush pt-3">
-            <% @moment.reactions.each do |reaction| %>
-              <li class="list-group-item"><%= reaction.awe %></li>
-            <% end %>
-          </ul>
-          </div>
         </div>
       </div>
 

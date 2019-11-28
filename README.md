@@ -134,6 +134,7 @@ En av elevene starter en lokal server som er tiljengelig for de andre på det lo
     # IP-en finner du med
     ip addr
     #Gi denne til din partner in crimes, husk å bruke port 3000
+    Eks: 10.13.10.30:3000
 
 
 CO-OP:

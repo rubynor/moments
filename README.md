@@ -12,6 +12,9 @@ Repo for utdanningsformål :)
 
 # Lag en "Ruby on Rails 6" app
 
+
+0. Åpne console, vi kjøre kommandolinje
+
 1. Lag et nytt rails prosjekt
  
    `rails new share-moment`
